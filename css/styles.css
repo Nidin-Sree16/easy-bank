@@ -1,0 +1,126 @@
+
+*{
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Public Sans', sans-serif;
+  color: hsl(233, 8%, 62%);
+  font-weight: 300;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: hsl(233, 26%, 24%);
+  font-weight: 400;
+}
+
+a{
+  color: hsl(233, 8%, 62%);
+}
+
+p{
+  margin-top: .75rem;
+}
+
+
+/* Intro Section */
+
+#intro{
+  background-color: hsl(0, 0%, 98%);
+}
+
+      /* Nav Bar section */
+
+      .navbar{
+        padding: 3% 7%;
+        z-index: 1;
+        background-color: hsl(0, 0%, 100%);
+      }
+
+      .hamburger-icon{
+        background-image: url("../images/icon-hamburger.svg");
+        background-size: 90%;
+      }
+
+      /* Image Section */
+
+      .intro-img-div img{
+        display: block;
+        width: 100%;
+      }
+
+      .intro-phn-img{
+        position: absolute;
+        top: -9%;
+        z-index: 0;
+      }
+
+      /* Text Section */
+
+      .intro{
+        top: -50px;
+        padding: 3% 15% 15%;
+        text-align: center;
+      }
+
+      .req-btn{
+        padding: 10px 30px;
+        color: #fff;
+        border-radius: 50px;
+        background-image: linear-gradient(to right, hsl(136, 65%, 51%), hsl(192, 70%, 51%));
+      }
+
+
+/* Features Section */
+
+#features{
+  text-align: center;
+  padding: 3% 15%;
+  background-color: hsl(220, 16%, 96%);
+}
+
+.features-content{
+  padding-bottom: 35px;
+}
+
+.features-why{
+  padding-bottom: 3rem;
+}
+
+.features-img{
+  padding: 5% 0;
+}
+
+
+/* Articles Section */
+
+#articles{
+  background-color: hsl(0, 0%, 98%);
+  padding: 15% 15%;
+}
+
+#articles h2{
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.card{
+  margin-bottom: 50px;
+}
+
+
+/* Footer Section */
+
+footer{
+  padding-top: 100px;
+}
+
+#footer{
+  background-color: hsl(233, 26%, 24%);
+  text-align: center;
+  padding: 10% 15%;
+}
+
+.footer-ico{
+  padding: 30px 10px;
+}
