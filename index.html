@@ -29,35 +29,42 @@
     <section id="intro">
 
       <nav class="navbar navbar-expand-lg">
-        <a class="navbar-brand" href="#">
+        <a class="navbar-brand" href="#intro">
           <img src="images/logo.svg" alt="easybank-logo">
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#items" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon hamburger-icon"></span></button>
         <div class="collapse navbar-collapse" id="items">
           <ul class="navbar-nav nav-link-centre">
-            <li class="nav-item active"><a class="nav-link" href="#">Home</a></li>
-            <li class="nav-item"><a class="nav-link" href="#">About</a></li>
-            <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
-            <li class="nav-item"><a class="nav-link" href="#">Blog</a></li>
-            <li class="nav-item"><a class="nav-link" href="#">Careers</a></li>
+            <li class="nav-item nav-bdr-btm active"><a class="nav-link" href="#intro">Home</a></li>
+            <li class="nav-item nav-bdr-btm"><a class="nav-link" href="#features">About</a></li>
+            <li class="nav-item nav-bdr-btm"><a class="nav-link" href="#articles">Blogs</a></li>
+            <li class="nav-item nav-bdr-btm"><a class="nav-link" href="#footer">Contact</a></li>
+            <li class="nav-item nav-bdr-btm"><a class="nav-link" href="#">Careers</a></li>
           </ul>
-          <!-- <ul class="navbar-nav ml-auto">
-            <li class="nav-item"></li>
-          </ul> -->
+        </div>
+        <div class="hidden-lg collapse navbar-collapse" id="removed-btn">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item"><button class="btn btn-md req-btn" type="button" name="button">Request Invite</button></li>
+          </ul>
         </div>
       </nav>
 
+      <div class="row">
 
-        <div class="intro-img-div">
-          <img class="intro-bg-img" src="images/bg-intro-mobile.svg" alt="">
-          <img class="intro-phn-img" src="images/image-mockups.png" alt="">
+        <div class="col-lg-6 intro-text">
+          <div class="intro-text-inner">
+            <h1>Next generation digital banking</h1>
+            <p>Take your financial life online. Your Easybank account will be a one-stop-shop for spending, saving, budgeting, investing, and much more.</p>
+            <button class="btn btn-md req-btn" type="button" name="button">Request Invite</button>
+          </div>
         </div>
-        <div class="intro">
 
-          <h1>Next generation digital banking</h1>
-          <p>Take your financial life online. Your Easybank account will be a one-stop-shop for spending, saving, budgeting, investing, and much more.</p>
-          <button class="btn btn-md req-btn" type="button" name="button">Request Invite</button>
+        <div class="col-lg-6 intro-img">
+          <div class="">
+            <img class="intro-phn-img" src="images/image-mockups.png" alt="phone-img">
+          </div>
+        </div>
 
       </div>
 
@@ -169,26 +176,47 @@
     </section>
 
     <section id="footer">
-      <div class="footer-div">
-        <img src="images/logo-white.svg" alt="logo-img"><br>
-        <img class="footer-ico" src="images/icon-facebook.svg" alt="facebook-icon">
-        <img class="footer-ico" src="images/icon-youtube.svg" alt="youtube-icon">
-        <img class="footer-ico" src="images/icon-twitter.svg" alt="twitter-icon">
-        <img class="footer-ico" src="images/icon-pinterest.svg" alt="pinterest-icon">
-        <img class="footer-ico" src="images/icon-instagram.svg" alt="instagram-icon">
-        <p><a class="footer-links" href=" ">About Us</a></p>
-      <p><a class="footer-links" href=" ">Contact</a></p>
-      <p><a class="footer-links" href=" ">Blob</a></p>
-      <p><a class="footer-links" href=" ">Careers</a></p>
-      <p><a class="footer-links" href=" ">Support</a></p>
-      <p><a class="footer-links" href=" ">Privacy Policy</a></p>
-        <button class="btn btn-md req-btn" type="button" name="button">Request Invite</button>
+      <div class="row">
 
-        <footer>
-          <p>Challenge By:<br>Front End Mentor</p>
-          <p>Completed By:<br>© Sharan Thangamani😉</p>
-        </footer>
+        <div class="col-lg-3">
+          <div class="footer-content">
+            <img src="images/logo-white.svg" alt="logo-img"><br>
+            <a class="footer-ico-links" href=""><img class="footer-ico" src="images/icon-facebook.svg" alt="facebook-icon"></a>
+            <a class="footer-ico-links" href=""><img class="footer-ico" src="images/icon-youtube.svg" alt="youtube-icon"></a>
+            <a class="footer-ico-links" href=""><img class="footer-ico" src="images/icon-twitter.svg" alt="twitter-icon"></a>
+            <a class="footer-ico-links" href=""><img class="footer-ico" src="images/icon-pinterest.svg" alt="pinterest-icon"></a>
+            <a class="footer-ico-links" href=""><img class="footer-ico" src="images/icon-instagram.svg" alt="instagram-icon"></a>
+          </div>
+        </div>
+
+        <div class="col-lg-2">
+          <div class="footer-content">
+            <p class="footer-content-p1"><a class="footer-links" href=" ">About Us</a></p>
+            <p><a class="footer-links" href=" ">Contact</a></p>
+            <p><a class="footer-links" href=" ">Blog</a></p>
+        </div>
+        </div>
+
+        <div class="col-lg-2">
+          <div class="footer-content">
+            <p class="footer-content-p1"><a class="footer-links" href=" ">Careers</a></p>
+            <p><a class="footer-links" href=" ">Support</a></p>
+            <p><a class="footer-links" href=" ">Privacy Policy</a></p>
+          </div>
+        </div>
+
+        <div class="col-lg-5">
+          <div class="footer-content footer-content-btn">
+            <button class="btn btn-md req-btn" type="button" name="button">Request Invite</button>
+            <p>© Easy Bank. All Rights Reserved</p>
+          </div>
+        </div>
+
       </div>
+      <footer>
+        <p>Challenge By:<br>Front End Mentor</p>
+        <p>Completed By:<br>© Sharan Thangamani😉</p>
+      </footer>
     </section>
   </body>
 </html>
